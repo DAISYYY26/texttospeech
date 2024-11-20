@@ -6,3 +6,6 @@ function speakthetext(e) {
     speechSynthesis.speak(utterence)
 }
 sayitBtn.addEventListener("click", speakthetext);
+
+
+

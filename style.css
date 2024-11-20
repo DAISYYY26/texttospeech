@@ -10,18 +10,19 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    margin-top: 10%;
+    margin-top: 2%;
 }
+
 
 textarea{
     background-color: black;
-    width: 50vw;
-    height: 40vh;
+    width: 40vw;
+    height: 45vh;
     color: white;
     display: flex;
     justify-content: center;
-    margin-left: 22%;
-    margin-top: 4%;
+    margin-left: 31%;
+    margin-top: 3%;
     align-items: center;
     padding-top: 12px;
     padding-left: 9px;
@@ -30,7 +31,7 @@ textarea{
 
 }
 button{
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(71, 67, 67);
     outline: none;
     border: none;
     border-radius: 4px;
@@ -38,8 +39,9 @@ button{
     font-size: 18px;
     color: white;
     font-weight: bold;
-    margin-left: 22%;
+    margin-left: 31%;
     margin-top: 2%;
+    margin-bottom: 20px;
 
 }
  .img{
@@ -48,3 +50,4 @@ button{
     margin-left: 12px;
     margin-bottom: -4px;
 }
+
