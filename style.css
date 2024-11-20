@@ -5,24 +5,40 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body{
-    background: linear-gradient(45deg,black,rgb(112, 98, 98));
+    background:rgb(48, 47, 47) ;
+    background-blend-mode: lighten;
     background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     margin-top: 2%;
 }
+#pausebtn{
+    margin-left: 1%;
+
+}
+#pausebtn:active{
+    background-color: white;
+}
+#resumebtn:active{
+    background-color: white;
+}
+#resumebtn{
+ margin-left: 2%;
+}
 
 
 textarea{
     background-color: black;
-    width: 40vw;
-    height: 45vh;
+    width: 50vw;
+    height: 53vh;
     color: white;
     display: flex;
     justify-content: center;
-    margin-left: 31%;
-    margin-top: 3%;
+    margin-left: 26%;
+    margin-top: 9%;
     align-items: center;
     padding-top: 12px;
     padding-left: 9px;
@@ -42,7 +58,10 @@ button{
     margin-left: 31%;
     margin-top: 2%;
     margin-bottom: 20px;
-
+    cursor: pointer;
+}
+button:active{
+    background-color: white;
 }
  .img{
     width: 25px;
